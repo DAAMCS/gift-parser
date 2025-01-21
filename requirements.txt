@@ -25,5 +25,6 @@ Pyrogram==2.0.106
 PySocks==1.7.1
 python-dotenv==1.0.1
 structlog==25.1.0
+TgCrypto==1.2.5
 typing_extensions==4.12.2
 yarl==1.18.3
