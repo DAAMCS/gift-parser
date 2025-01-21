@@ -19,7 +19,7 @@ async def startup_info(bot: Bot):
     logger = get_logger()
     me = await bot.get_me()
 
-    await logger.ainfo(f'start bot: @{me.username} [developer: t.me/awixa]')
+    await logger.ainfo(f'start bot: @{me.username}')
 
 async def main():
     bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(
