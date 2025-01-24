@@ -1,0 +1,13 @@
+services:
+  bot:
+    depends_on:
+      - db
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: Bot
+    env_file:
+      - .env
+volumes:
+  pgdata:
+    driver: local
